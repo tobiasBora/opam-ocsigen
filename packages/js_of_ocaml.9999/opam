@@ -12,4 +12,5 @@ depends: [
   "ocamlfind"
   "deriving"
   "lwt" {>= "2.4"}
+  "menhir"
 ]
