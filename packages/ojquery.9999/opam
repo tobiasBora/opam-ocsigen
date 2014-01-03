@@ -9,5 +9,5 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "js_of_ocaml"
+  "js_of_ocaml" {>= "9999"}
 ]
