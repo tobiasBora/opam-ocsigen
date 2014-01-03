@@ -1,13 +1,13 @@
 opam-version: "1"
-maintainer: "zol@benozol.de"
+maintainer: "dev@ocsigen.org"
 build: [
   ["sh" "configure"
    "--prefix" "%{prefix}%"
    "--mandir" "%{man}%"
    "--docdir" "%{lib}%/eliom/doc"
    "--datadir" "%{lib}%/eliom/share"]
-  ["%{make}%"]
-  ["%{make}%" "install"]
+  [make]
+  [make "install"]
 ]
 remove: [
   ["rm" "-rf" "%{lib}%/eliom"
