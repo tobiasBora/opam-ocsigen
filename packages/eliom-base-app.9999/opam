@@ -13,6 +13,6 @@ depends: [
   "pgocaml"
   "macaque"
   "safepass"
-  "eliom"
+  "eliom" {>= "9999"}
   "eliom-widgets"
 ]

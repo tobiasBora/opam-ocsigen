@@ -9,6 +9,6 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "js_of_ocaml"
-  "ojquery"
+  "js_of_ocaml" {>= "9999"}
+  "ojquery" {>= "9999"}
 ]
