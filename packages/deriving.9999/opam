@@ -10,6 +10,7 @@ remove: [
 depends: [
   "ocamlfind"
   "optcomp"
+  "oasis"
 ]
 depopts: [
   "type_conv" {>= "108.07.00"}
