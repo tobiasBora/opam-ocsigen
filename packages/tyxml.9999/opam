@@ -9,5 +9,5 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "oasis" {>= "0.4"}
+  "oasis" {>= "0.4.4"}
 ]
