@@ -9,7 +9,7 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "ocaml-text"
+  "text"
   "js_of_ocaml" {>= "9999"}
   "ojwidgets" {>= "9999"}
   "eliom" {>= "9999"}
