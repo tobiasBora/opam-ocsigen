@@ -11,6 +11,7 @@ depends: [
   "ocamlfind"
   "optcomp"
   "oasis" {>= "0.4.4"}
+  "camlp4"
 ]
 depopts: [
   "type_conv" {>= "108.07.00"}
