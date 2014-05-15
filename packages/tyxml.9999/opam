@@ -1,6 +1,9 @@
 opam-version: "1"
 maintainer: "dev@ocsigen.org"
 build: [
+  ["./configure"
+      "--%{camlp4:enable}%-syntax"
+      "--prefix" prefix]
   [make]
   [make "install"]
 ]
@@ -10,4 +13,7 @@ remove: [
 depends: [
   "ocamlfind"
   "oasis" {>= "0.4.4"}
+]
+depopts: [
+  "camlp4"
 ]
