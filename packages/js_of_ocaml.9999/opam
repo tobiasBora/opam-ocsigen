@@ -11,6 +11,7 @@ depends: [
   "ocamlfind"
   "lwt" {>= "2.4"}
   "menhir"
+  "camlp4"
 ]
 
 depopts: ["deriving"]
