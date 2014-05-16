@@ -1,6 +1,7 @@
 opam-version: "1"
 maintainer: "gregoire.henry@inria.fr"
 build: [
+  ["./configure" "--%{type_conv:enable}%-tc"]
   [make]
   [make "install"]
 ]
