@@ -1,6 +1,7 @@
 opam-version: "1"
 maintainer: "dev@ocsigen.org"
 build: [ make ]
+ocaml-version: [>= "4.00.0"]
 depends: [
   "ocamlfind"
   "deriving" {>= "0.6"}
