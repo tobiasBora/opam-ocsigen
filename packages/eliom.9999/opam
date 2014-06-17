@@ -8,6 +8,7 @@ depends: [
   "js_of_ocaml" {>= "9999"}
   "calendar"
   "ocsigenserver" {>= "9999"}
+  "reactiveData"
   "camlp4"
   "ipaddr" {>= "2.1"}
 ]
